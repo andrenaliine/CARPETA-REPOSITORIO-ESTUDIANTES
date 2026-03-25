@@ -53,6 +53,8 @@ cabezal que lee/escribe símbolos, y un conjunto de reglas.
 *ARTISTAS Y ALGORITMOS  
 Durante 1960, invitaron artistas para combinar el arte con la tecnologia, se hacia arte con algoritmos *"arte computacional"* 
 
+¡EXPOSICIÓN:Cybernetic Serendipity - Londres 1968 !  
+
 
 
 
