@@ -16,13 +16,14 @@ ___
 
 ## **Dibujo físico**  
 
-![Dibujo abstracción] (![DIBUJO NISSA](https://github.com/user-attachments/assets/7b632b09-5fe1-4227-b62b-762523b38655)   
+![Dibujo abstracción] ![DIBUJO NISSA](https://github.com/user-attachments/assets/7b632b09-5fe1-4227-b62b-762523b38655)   
 
 
 ___
 ## **Work in progress**
 
-![Dibujo en editor p5.js en proceso](file:///Users/nissacontreras/Documents/Work%20in%20progress.jpg)
+![Dibujo en editor p5.js en proceso] ![Work in progress](https://github.com/user-attachments/assets/a6c2a067-101f-4011-9056-b3c8b5251b82)
+
 
 ___
 
