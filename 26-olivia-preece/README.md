@@ -45,6 +45,11 @@ Obra escogida para uso de referente, Composición 8, 1923.
 
 Dibujo de la composición en físico.  
 Hoja cuadriculada de 25 x 25cm (marcando cada 5mm y 1cm)  
-![Composición análoga](file:///Users/donaldtrump/Desktop/Composicion.jpg) 
+![Composición análoga](26-olivia-preece/Composicion.jpg)
 
-![Composición análoga](
+LINK P5.js  
+https://editor.p5js.org/olivi4p/sketches/4lpQOOMGG
+
+
+
+
