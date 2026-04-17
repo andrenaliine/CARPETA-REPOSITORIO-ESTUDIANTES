@@ -1,0 +1,9 @@
+p5.js mide los angulos de manera radial, es cuando el perimetro de afuera mide lo mismo que el radial del circulo. en un medio circulo caben 4 radiales. 
+
+el grado 0 del circulo comienza en el centro del circulo de manera horizontal. Para trabajar con radiales se trabaja con **P** en este caso el cero es TWO-P.
+
+Grado 180= PI 
+
+
+# Rotate(); 
+siempre rotara desde el punto de origen que es (0,0); , se recomienda usar con translate y algunos casos rectMode(CENTER 
