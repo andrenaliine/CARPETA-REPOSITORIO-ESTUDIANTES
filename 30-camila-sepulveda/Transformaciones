@@ -1,6 +1,6 @@
-p5.js mide los angulos de manera radial, es cuando el perimetro de afuera mide lo mismo que el radial del circulo. en un medio circulo caben 4 radiales. 
+P5.js mide los angulos de manera radial, es cuando el perimetro de afuera mide lo mismo que el radial del circulo. en un medio circulo caben 4 radiales. 
 
-el grado 0 del circulo comienza en el centro del circulo de manera horizontal. Para trabajar con radiales se trabaja con **P** en este caso el cero es TWO-P.
+El grado 0 del circulo comienza en el centro del circulo de manera horizontal. Para trabajar con radiales se trabaja con **P** en este caso el cero es TWO-P.
 
 Grado 180= PI 
 
@@ -17,21 +17,21 @@ trasladar el punto de origen
 push(); y pop();
 son funciones para que se genere una capsula, es para que los movimientos no interfieran en otras figuras, donde no se desean. 
 
-si un objeto gire al sentido contrario se pone un menos 
+Si un objeto gire al sentido contrario se pone un menos 
 
 
 # Escala= scale();
 
-ajusta la escala del sistema de coordenadas actual al factor especifico 
+Ajusta la escala del sistema de coordenadas actual al factor especifico 
 
 scale(x,y);
 scale(2,2);
 
-# logica condicional
+# Logica condicional
 
-expresión booleana: cualquier enunciado o dato o instruccion que al ser evaluado solp uede arrojar dos valores pisble verdsdero (true) o falso(false).
+## Expresión booleana: cualquier enunciado o dato o instruccion que al ser evaluado solp uede arrojar dos valores pisble verdsdero (true) o falso(false).
 
-tenemos operandos son datos basicos que se evaluan variables como x o y , mouseX mouseY etc, son constantes literales.
+Tenemos operandos son datos basicos que se evaluan variables como x o y , mouseX mouseY etc, son constantes literales.
 
-operadores de comparación: permite contraste de dos valores. ==(igusl a), !=(diferente de), <o>(mayor o menor que), <=o>=(mayor o igual/ menor o igual). 
+Operadores de comparación: permite contraste de dos valores. ==(igual a), !=(diferente de), <o>(mayor o menor que), <=o>=(mayor o igual/ menor o igual). 
 
