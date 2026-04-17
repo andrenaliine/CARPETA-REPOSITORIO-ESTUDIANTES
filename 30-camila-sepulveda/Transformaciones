@@ -39,3 +39,5 @@ if, else if, else:
 
 sentencia if, toma una condicion expresada como booleano, y ejecuta una accion de codigos dentro de llaves. 
 
+if(condicion){ejecuta este codigo si es true}. 
+
