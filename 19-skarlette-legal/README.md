@@ -1,1 +1,1 @@
-# Bitacora Digital
+# Bitacora Digital - pensamiento computacional
