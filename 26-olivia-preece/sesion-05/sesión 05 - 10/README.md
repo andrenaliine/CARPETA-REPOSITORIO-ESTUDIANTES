@@ -52,33 +52,40 @@ strokeWeight()
 fill()  
 ellpise()
 
-'''
 
-let x=0  
-let y=0  
-let speed = 3;  
-function setup() {  
-createCanvas(400, 400);  
-}  
-function draw() {  
-background(255, 111, 0);
-    noStroke();
-  fill(24, 84, 61);
-  ellipse(x,200,100,100);'//cordenada x va a ser variable x, luego y(200) y de 50x50'
-  x=x+speed '//avanza de tres pixeles cada vez que hace el draw (spped =3)'
-   if (x > width || x < 0) {
-    print("fueradecuadro")
-speed = speed * -1; '// pelota avanza por sus valores negativos (cualquier cosa multiplicada por -1)'
+let y=0//declaro e inicializo variable Y y le aigno valor 0
+let speedX = 3; //declaro e inicializo variable speedX y le aigno valor 3
+let speedY = 5;//declaro e inicializo variable speedY y le aigno valor 5
+
+
+function setup() { //esta es la función de inicio que se ejecuta una sola vez cuando comienza el programa
+  createCanvas(400, 400);//crea un lienzo de 400px en X y 400px en Y
 }
-  noStroke();
-  fill(173, 217, 199);
-  ellipse(200,y,50,50);'//cordenada x va a ser variable x, luego y(200) y de 50x50'
-  y=y+speed
-  if (y > width || y < 0) { '//condicional siempre llave que abre y cierra'
-    print("fueradecuadro")
-    speed = speed *-1; 
-}
-  } '// ultima llave que cierra el darw'
+
+function draw() {// esta es la función que se ejecuta en loop (se vuelve a repetir constantemente) 60 veces por segundo 
+  background(255, 111, 0);// agrego un color naranja al fondo en valor r, g, b
   
-  '''
+function dibujarObjetos() {
+  noStroke();//configuro que ellipse no tenga borde
+  fill(24, 84, 61);//asigno un color verde oscuro a ellipse en valores r, g, b
+  ellipse(x,200,100,100);//cordenada x va a ser variable x, luego y(200) y de 50x50 (ancho y alto)
+  
+  noStroke();//configuro que ellipse no tenga borde
+  fill(173, 217, 199);//asigno un color verde claro a ellipse en valores r, g, b
+  ellipse(200,y,50,50);
+}
+  
+   x=x+speedX //variable X va a ser igual a la variable X + la variable speedX (avanza de tres pixeles cada vez que hace el draw (speed =3))
+   y=y+speedY //variable Y va a ser igual a la variable Y + la variable speedY
+  
+   if (x > width || x < 0) { //si X es mayor que el ancho del lienzo (400) o X es menos que 0 (condicional siempre llave que abre y cierra)
+    print("fueradecuadro")//imprime en la consola (console abajo) la cadena de texto "fuera de cuadro"
+speedX = speedX * -1; // La variable speedX va a ser igual a la variable speed X por -1 (pelota avanza por sus valores negativos (cualquier cosa multiplicada por -1))
+}
+  
+  if (y > width || y < 0) { //Si Y es mayor que el alto del lienzo (400) o Y es menor que 0 
+    print("fueradecuadro")//imprime en la consola (console abajo) la cadena de texto "fuera de cuadro"
+    speedY = speedY *-1; // La variable speedY va a ser igual a la variable speedY por -1
+}
+  } // ultima llave que cierra el darw 
 
